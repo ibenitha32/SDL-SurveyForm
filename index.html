@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDL completion Survey form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="page-container">
+    <header id="form-header">
+        <h1 id="form-title"><span>SDL</span> Foundation Course <span>SurveyForm</span></h1>
+        <p id="form-description">Congratulations! You have now completed the SDL Foundation Course. Please share your highlights, insights, and feedback.</p>        
+    </header>
+    <main>
+        <section id="survey-form">
+            <form>
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name" type="text" placeholder="Enter Your Name">
+                </div>
+
+        
+                <div class="form-group">
+                    <label for="email-address">Email Address</label>
+                    <input id="email-address" type="email" placeholder="Enter Your Email">
+                </div> 
+
+
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="" disabled selected>Select your gender</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+
+
+                <div class="form-group">
+                    <label><strong>What topics did you enjoy the most?</strong><i>(Select all that apply)</i></label>
+                    <div class="checkbox-group">
+                        <input id="navigating-digital-environments" type="checkbox">
+                        <label for="navigating-digital-environments">Navigating Digital Environments</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input id="self-awareness-and-reflection" type="checkbox">
+                        <label for="self-awareness-and-reflection">Self Awareness And Reflection</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input id="constructive-feedback" type="checkbox">
+                        <label for="constructive-feedback">Constructive Feedback</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input id="growth-mindset-and-tiny-habits" type="checkbox">
+                        <label for="growth-mindset-and-tiny-habits">Growth Mindset And Tiny Habits</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input id="smart-goals-and-action-plans" type="checkbox">
+                        <label for="smart-goals-and-action-plans">SMART Goals and Action plans</label>
+                    </div>                           
+                    <div class="checkbox-group">
+                        <input id="logical-fallacies" type="checkbox">
+                        <label for="logical-fallacies">Logical Fallacies</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input id="evaluating-sources" type="checkbox">
+                        <label for="evaluating-sources">Evaluating Sources</label>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="which-class-activity-did-you-learn-from-the-most">Which classroom activity did you learn from the most?</label>
+                    <select id="which-class-activity-did-you-learn-from-the-most">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="navigating-digital-environments">Navigating Digital Environments</option>
+                        <option value="self-awareness-essay">Self Awareness Essay</option>
+                        <option value="peer-feedback">Peer Feedback</option>
+                        <option value="tiny-habits-and-growth-mindset">Tiny Habits and Growth Mindset</option>
+                        <option value="personalised-action-plan">Personalised Action Plan</option>
+                        <option value="logical-fallacies">Logical Fallacies</option>
+                        <option value="craap-test-and-evidence-log">CRAAP Test and Evidence Log</option>
+                    </select>                    
+                </div>
+
+                <div class="form-group">
+                    <label for="what-are-some-achievements-you-are-proud-of">What are some achievements you’re proud of?</label>
+                    <textarea id="what-are-some-achievements-you-are-proud-of" cols="30" rows="10" placeholder="Type In Your Response"></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="what-motivates-you-to-learn-more">What motivates you to learn more?</label>
+                    <textarea id="what-motivates-you-to-learn-more" cols="30" rows="10" placeholder="Type In Your Response"></textarea>
+                </div>
+               
+                <div class="form-group">
+                    <label for="did-you-have-supportive-classmates">Did you have supportive classmates?</label>
+                    <select id="did-you-have-supportive-classmates">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="yes-extremely-supportive">Yes, extremely supportive</option>
+                        <option value="they-were-neither-supportive-nor-unsupportive">They were neither supportive nor unsupportive</option>
+                        <option value="no-extremely-unsupportive">No, extremely unsupportive</option>
+                    </select> 
+                </div>
+
+                <div class="form-group">
+                    <label for="did-your-instructor-encourage-you-to-perform-better">Did your intrustor encourage you to perform better?</label>
+                    <select id="did-your-instructor-encourage-you-to-perform-better">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="yes-all-the-time">Yes, all the time</option>
+                        <option value="Only sometimes">only-sometimes</option>
+                        <option value="no-not-at-all">No, not at all</option>
+                    </select> 
+                </div>
+                
+                <div class="form-group">
+                    <label for="how-would-you-rate-the-overall-academic-experience">How would you rate the overall academic experience?</label>
+                    <select id="how-would-you-rate-the-overall-academic-experience">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="very-unsatisfied">Very Unsatisfying</option>
+                        <option value="unsatisfied">Unsatisfying</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="satisfied">Satisfying</option>
+                        <option value="very-satisfied">Very Satisfying</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="given-a-chance-what-is-one-change-that-you-would-like-to-see">Given a chance, what is one change that you would like to see?</label>
+                    <textarea id="given-a-chance-what-is-one-change-that-you-would-like-to-see" cols="30" rows="10" placeholder="Type In Your Response"></textarea>
+                </div>
+
+               
+                <div id="form-submit">
+                    <button>SUBMIT</button>
+                </div>
+            </form>
+        </section>
+    </main>
+   </div> 
+</body>
+</html>
